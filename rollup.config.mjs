@@ -6,7 +6,7 @@ import terser from '@rollup/plugin-terser';
 export default {
   input: 'src/umd/simpleinvoicing.js', // Your entry file
   output: {
-    file: 'dist/bundle.min.js', // Output bundle
+    file: 'dist/browser/bundle.min.js', // Output bundle
     format: 'umd', // Universal Module Definition
     name: 'simpleinvoicing', // Global variable name when script is included directly in HTML
   },
